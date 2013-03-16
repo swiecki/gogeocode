@@ -56,7 +56,7 @@ abstract class BaseGeocode
 	 *
 	 * @param string $key The geocoding service's API key
 	 */
-	public function __construct( $key ) {
+	public function __construct( $key = '' ) {
 		//Default to default unit of miles
 		//by providing the earth radius in miles
 		$this->setEarthRadius( 3963.1676 );
